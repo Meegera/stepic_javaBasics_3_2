@@ -102,8 +102,7 @@ public class DVD extends JPanel{
 
     public void changeLogo() {
 
-        Random r = new Random();
-        int n = r.nextInt(1, 4);
+        int n = (int) Math.round(Math.random() * 4);
         System.out.println(n);
         if (n == 1) {
             try {
