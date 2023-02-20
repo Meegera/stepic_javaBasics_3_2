@@ -37,7 +37,6 @@ public class MyPanel extends JPanel{
     ActionListener messageAL = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
-            System.out.println(x + "  " + y);
             if (x < 500 && y == 20) {
                 x += 20;
             } else if(x == 500 && y < 500){
